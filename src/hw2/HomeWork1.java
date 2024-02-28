@@ -5,14 +5,14 @@ public class HomeWork1 {
 	public static void main(String[] args) {
 		int a = 0;
 		for (int b = 2; b <= 1000; b += 2)		
-		a += b;
+			a += b;
 		System.out.println("第一題"+a);
 		
 //		• 請設計一隻Java程式,計算1~1000的偶數和 (2+4+6+8+...+1000)
 		
 			int c = 1;
 			for (int d = 1; d <= 10; d++)
-			c *= d;
+				c *= d;
 			System.out.println("第二題"+c);
 		
 //		• 請設計一隻Java程式,計算1~10的連乘積 (1*2*3*...*10) (用for迴圈)
